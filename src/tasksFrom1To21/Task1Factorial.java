@@ -6,7 +6,7 @@ public class Task1Factorial {
 
     //Create a method named factorial
     public int factorial(int n) {
-
+ if (n == 1) return 1; // Base case: factorial of 1 is 1
         return n;
     }
 }
