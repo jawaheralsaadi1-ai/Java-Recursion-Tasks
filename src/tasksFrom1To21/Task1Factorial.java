@@ -18,5 +18,9 @@ class factorialDemo {
     public static void main(String[] args ) {
         Task1Factorial obj = new Task1Factorial();
 
+// Testing with values 1, 2, and 3 and display results for Factorial
+        System.out.println("factorial(1) -> " + obj.factorial(1));
+        System.out.println("factorial(2) -> " + obj.factorial(2));
+        System.out.println("factorial(3) -> " + obj.factorial(3));
     }
 }
