@@ -14,7 +14,7 @@ public class Task1Factorial {
     }
 }
 class factorialDemo {
-    static void main() {
+    public static void main(String[] args ) {
         Task1Factorial obj = new Task1Factorial();
 
 // Testing with values 1, 2, and 3 and display results for Factorial
