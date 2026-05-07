@@ -21,22 +21,15 @@ public class Task2BunnyEars {
 class  BunnyEarsDemo {
     // Create main Method and Create object
     public static void main(String[] args) {
-        //Create an object(bunnyManager) of the Task2BunnyEars class
+
+        //Create an object of the class()
         Task2BunnyEars bunnyManager = new Task2BunnyEars();
-        /* Call the bunnyEars() method using the object */
-        int result0 = bunnyManager.bunnyEars(0); // Call & Test the method with value of 0
-        int result1 = bunnyManager.bunnyEars(1); // Call & Test the method with value of 1
-        int result2 = bunnyManager.bunnyEars(2); // Call & Test the method with value of 2
 
-        // Display the results using System.out.println()
-        System.out.println("ResultN=0: " + result0);
-        System.out.println("ResultN=1: " + result1);
-        System.out.println("ResultN=2: " + result2);
-
-
-
-
+        // Testing based on task requirements
+        System.out.println("bunnyEars2(0) -> " + bunnyManager.bunnyEars(0)); // Expected: 0
+        System.out.println("bunnyEars2(1) -> " + bunnyManager.bunnyEars(1)); // Expected: 2
+        System.out.println("bunnyEars2(2) -> " + bunnyManager.bunnyEars(2)); // Expected: 5 (3+2)
+    }
 
     }
-}
 
