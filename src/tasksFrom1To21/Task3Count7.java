@@ -8,7 +8,16 @@ public class Task3Count7 {
         if (n == 0) {
             return 0;
         }
-return n ;
+
+        // STEP 2: IMPLEMENT CONDITIONAL RECURSION
+        // Logic 1 : Check if the current last digit is 7
+        if (n % 10 == 7) {
+            // Found a 7: Add 1 and continue with rest number (n / 10)
+            return 1 + count7(n / 10); }
+        // Not a 7 : continue the rest number (n / 10)
+            else {
+                return count7(n / 10);
+            }
+        }
     }
-    //Next STEP 2: IMPLEMENT CONDITIONAL RECURSION
-}
+//TODO, STEP 3:  create another named Count7Demo Class for Testing
