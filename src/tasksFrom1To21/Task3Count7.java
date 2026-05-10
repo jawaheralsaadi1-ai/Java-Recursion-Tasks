@@ -29,14 +29,10 @@ public class Task3Count7 {
     public static void main(String[] args) {
      // Create an object 'counter' of the Count7 class
         Task3Count7 counter = new Task3Count7();
-        //Call count7() method using the object
-        int results1 = counter.count7(717);// Call & Test with value of 717 |
-        int results2 = counter.count7(7);// Call & Test with value of 7
-        int results3 = counter.count7(123);// Call & Test with value of 123
-        // Display the results using System.out.println()
-        //excepted output: 2, 1, 0
-        System.out.println(results1 + " " + results2 + " " + results3);
-
-
+         // Call & Test with value of 717 , 7 , and 123
+        // Display the results
+        System.out.println("count7(717) -> " + counter.count7(717)); // Expected: 2
+        System.out.println("count7(7)   -> " + counter.count7(7));   // Expected: 1
+        System.out.println("count7(123) -> " + counter.count7(123)); // Expected: 0
     }
 }
