@@ -1,5 +1,7 @@
 package tasksFrom1To21;
 
+
+
 public class Task3Count7 {
     // STEP 1: INITIALIZE STRUCTURE & BASE CASE
     // Create method and define the stopping point.
