@@ -1,7 +1,5 @@
 package tasksFrom1To21;
 
-import java.util.Scanner;
-
 public class Task3Count7 {
     // STEP 1: INITIALIZE STRUCTURE & BASE CASE
     // Create method and define the stopping point.
@@ -22,7 +20,7 @@ public class Task3Count7 {
             }
         }
     }
-//STEP 3 :  TESTING & VALIDATION
+//STEP 3 : TESTING & VALIDATION
 // create another named Count7Demo Class for Testing
  class Count7DEmo{
     //Create main Method and object
